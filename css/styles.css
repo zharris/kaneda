@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.kaneda {
+	width: 200px;
+	position: relative;
+}
+
+.kaneda img {
+	max-width: 100%;
+}
+
+.kaneda img.kaneda-main {
+	position: relative;
+	z-index: 1;
+}
+
+.kaneda img.kaneda-pink,
+.kaneda img.kaneda-blue {
+	/*display: none;*/
+	position: absolute;
+	top: 0;
+}
