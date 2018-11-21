@@ -22,9 +22,8 @@ body {
 	z-index: 1;
 }
 
-.kaneda img.kaneda-pink,
-.kaneda img.kaneda-blue {
-	/*display: none;*/
+.kaneda img#kaneda-pink,
+.kaneda img#kaneda-blue {
 	position: absolute;
 	top: 0;
 }
